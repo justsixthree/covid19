@@ -1,0 +1,48 @@
+.banner {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  background-color: $nutral-color;
+
+  .banner__txt {
+    margin-top: 190px;
+    color: #000;
+  }
+
+  .banner__img {
+    position: relative;
+    z-index: 2;
+    top: -70px;
+    left: 40px;
+    background-size: 650px;
+    background-repeat: no-repeat;
+  }
+
+  .banner__bg {
+    position: absolute;
+    right: 0;
+    top: 45px;
+    z-index: 1;
+  }
+
+  .bgimage__first {
+    margin-left: -180px;
+    position: absolute;
+    bottom: 50px;
+  }
+
+  .bgimage__second {
+    position: absolute;
+   left: 400px;
+    bottom: 50px;
+    opacity: 0.7;
+  }
+
+  .bgimage__third {
+    position: absolute;
+    top: 0;
+    float: right;
+    right: -150px;
+  }
+}

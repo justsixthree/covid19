@@ -1,0 +1,13 @@
+
+.header { 
+  background-color: $nutral-color;
+  .header__logo {
+    height: 180px;
+    width: 300px;
+    margin-left: -90px;
+  }
+  .header__item{
+    padding: 0 30px;
+  }
+
+}

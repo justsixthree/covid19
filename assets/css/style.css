@@ -1,4 +1,103 @@
-* {
-                  margin: 0;
-                  padding: 0;
-}
+.header {
+  background-color: #fff7f5; }
+  .header .header__logo {
+    height: 180px;
+    width: 300px;
+    margin-left: -90px; }
+  .header .header__item {
+    padding: 0 30px; }
+
+.banner {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  background-color: #fff7f5; }
+  .banner .banner__txt {
+    margin-top: 190px;
+    color: #000; }
+  .banner .banner__img {
+    position: relative;
+    z-index: 2;
+    top: -70px;
+    left: 40px;
+    background-size: 650px;
+    background-repeat: no-repeat; }
+  .banner .banner__bg {
+    position: absolute;
+    right: 0;
+    top: 45px;
+    z-index: 1; }
+  .banner .bgimage__first {
+    margin-left: -180px;
+    position: absolute;
+    bottom: 50px; }
+  .banner .bgimage__second {
+    position: absolute;
+    left: 400px;
+    bottom: 50px;
+    opacity: 0.7; }
+  .banner .bgimage__third {
+    position: absolute;
+    top: 0;
+    float: right;
+    right: -150px; }
+
+.card {
+  width: 32%;
+  position: relative;
+  padding: 45px 0 0 30px; }
+  .card .card__txt .card__title {
+    width: 80%;
+    font-size: 20px;
+    line-height: 1.5; }
+  .card .card__txt .card__price {
+    font-size: 18px;
+    color: #3A393E;
+    font-weight: 200;
+    margin-top: 10px; }
+  .card .card__img {
+    position: absolute;
+    height: 150px;
+    margin-right: -30px;
+    bottom: -15px; }
+
+.card--yellow {
+  background-color: #FCF0E7; }
+
+.card--second {
+  background-color: #E5F1F5;
+  margin: 0 20px; }
+
+.card--third {
+  background: #d8e6eb; }
+
+.product__img {
+  background-color: #F5F5F5; }
+
+body {
+  overflow-x: hidden; }
+
+ul {
+  list-style: none; }
+  ul a {
+    text-decoration: none;
+    color: #000; }
+
+.color--primary {
+  color: #FF6D33; }
+
+.btn__primary {
+  color: #FF6D33;
+  border-color: #FF6D33; }
+
+.btn__primary:hover {
+  color: #fff;
+  border-color: #FF6D33;
+  background-color: #FF6D33; }
+
+.header__item a:hover {
+  color: #FF6D33; }
+
+h1 {
+  font-size: 80px; }

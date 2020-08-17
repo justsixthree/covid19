@@ -1,0 +1,43 @@
+// card sectin start 
+.card{
+  width: 32%;
+  position: relative;
+  padding: 45px 0 0 30px;
+  .card__txt{
+    .card__title{
+      width: 80%;
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    .card__price{
+      font-size: 18px;
+      color: #3A393E;
+      font-weight: 200;
+      margin-top: 10px;
+    }
+  }
+  .card__img{
+    position: absolute;
+    height: 150px;
+    margin-right: -30px;
+    bottom: -15px;
+  }
+}
+.card--yellow{
+  background-color: #FCF0E7;
+}
+.card--second{
+  background-color: #E5F1F5;
+  margin: 0 20px;
+}
+.card--third{
+  background:#d8e6eb;
+}
+// card sectin end 
+.product__img{
+  background-color: #F5F5F5;
+}
+
+
+
+
