@@ -1,4 +1,7 @@
-* {
+* 
+
+
+{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -55,15 +58,54 @@
 /* // Head Section terminated here */
 
 
+/* banner Section Start here */
+.banner__content {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+/*.section__head {
+    width: 50%;
+}*/
+.banner__img {
+    width: 50%;
+    background: url('../images/OrangeColor.png') no-repeat;
+    
+}
+.virusPosition--L {
+    position: absolute;
+    top: 500px;
+    left: -260px;
+}
+.virusPosition--M {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+.virusPosition--R {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+/* // banner Section terminated here */
+
+/* Product Section Start here */
+.Inner__Section{
+    display: flex;
+}
+.Section__content{
+    display: flex;
+}
+/* // Product Section terminated here */
+
+/* Feature Section Start here */
+/* // Feature Section terminated here */
+
 /* Head Section Start here */
 /* // Head Section terminated here */
+
 /* Head Section Start here */
 /* // Head Section terminated here */
-/* Head Section Start here */
-/* // Head Section terminated here */
-/* Head Section Start here */
-/* // Head Section terminated here */
-/* Head Section Start here */
-/* // Head Section terminated here */
-/* Head Section Start here */
-/* // Head Section terminated here */
+
+/* Footer Section Start here */
+/* // footer Section terminated here */
