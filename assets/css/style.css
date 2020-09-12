@@ -20,6 +20,15 @@
 .font--gray{
     color: #3A393E;
 }
+.section__title {
+    font-size: 52px;
+    text-align: center;
+}
+.section__subtitle {
+    font-size: 30px;
+    text-align: center;
+}
+
 .img{
     max-width: 100%;
 }
@@ -29,6 +38,22 @@
     color: #FFFFFF;
     border: 4px solid #FFFFFF;
     cursor: pointer;
+    font-size: 20px;
+}
+.align--l{
+    text-align: left;
+}
+.bg--clr1{
+    background-color: #FCF0E7;
+}
+.bg--clr2{
+    background-color: #E5F1F5;
+}
+.bg--clr3{
+    background-color: #2684EF;
+}
+.bg--clr4{
+    background-color: #F5F5F5;
 }
 /* // Common Classes terminated here */
 
@@ -64,45 +89,164 @@
     width: 100%;
     position: relative;
 }
+.section__head{
+    padding: 30px 0;
+}
 /*.section__head {
     width: 50%;
 }*/
+.banner__title {
+    font-size: 80px;
+    line-height: 1em;
+    padding-right: 30px;
+}
+.font--orng {
+    color:#FF6D33;
+}
+.section__info{
+    padding-top: 15px;
+    padding-right: 60px;
+    font-size: 22px;
+}
 .banner__img {
-    width: 50%;
+    width: 40%;
     background: url('../images/OrangeColor.png') no-repeat;
-    
+    background-size: contain;
+    position: relative;
+    left: -150px;
+    top: -80px;
+}
+.banner__img--front{
+    padding: 10px;
 }
 .virusPosition--L {
+    height: 300px;
+    width: 300px;
     position: absolute;
-    top: 500px;
+    top: 286px;
     left: -260px;
 }
 .virusPosition--M {
+    height: 300px;
+    width: 300px;
     position: absolute;
-    top: 100px;
-    left: 400px;
+    top: 230px;
+    left: 430px;
 }
 .virusPosition--R {
+    height: 300px;
+    width: 300px;
     position: absolute;
     top: 0;
-    right: 10px;
+    right: -200px;
 }
 /* // banner Section terminated here */
 
 /* Product Section Start here */
 .Inner__Section{
     display: flex;
+    justify-content: space-between;
 }
 .Section__content{
+    width: 32%;
+    padding: 20px;
+}
+.ProductItem{
     display: flex;
+}/*
+.product__content {
+    width: 70%;
+}*/
+.product__imgbox{
+    width: 50%;
+}
+.price__info{
+    font-size: 22px;
+}
+.ProductItem__img{
+    width: 100%;
 }
 /* // Product Section terminated here */
 
 /* Feature Section Start here */
+.feature__content{
+    display: flex;
+    width: 100%;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+}
+.product{
+    width: 30%;
+}
+.priceTag__box{
+    background: url('../images/tag.png') no-repeat;
+    height: 100px;
+    width: 15%;
+    padding: 5px;
+    margin-left: 10px;
+    position: relative;
+    top: -300px;
+}
+.offer__price{
+    padding: 5px;
+    color: #fff;
+}
+.price__box{
+    display: flex;
+    justify-content: space-between;
+}
+.rating{
+    padding: 0 10px;
+}
+.Product__title {
+    font-size: 24px;
+    color: #3A393E;
+}
+.Product__price{
+    font: 24px bold;
+    color: #FF6D33;
+    margin-right: 10px;
+}
+.Product__price--strike{
+    font-size: 18px;
+    color: #989898;
+    text-decoration:line-through;
+}
+
 /* // Feature Section terminated here */
 
-/* Head Section Start here */
-/* // Head Section terminated here */
+/* Offer Section Start here */
+.offer__inner {
+    display: flex;
+}
+.offer__content{
+    width: 40%;
+}
+.aside__right{
+    width: 60%;
+}
+.aside__img{
+    width: 60%;
+}
+.corner__img{
+    width: 40%;
+}
+.img__upside{
+    position: relative;
+    top: -600px;
+    left: 70px;
+}
+.img__base{
+    position: relative;
+    top: 6px;
+    left: -70px;
+}
+.img__rightside{
+    position: relative;
+    top: -670px;
+    left: 300px;
+}
+/* // Offer Section terminated here */
 
 /* Head Section Start here */
 /* // Head Section terminated here */

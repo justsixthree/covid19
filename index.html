@@ -63,14 +63,13 @@
         <section class="banner bg--grey font--gray">
             <div class="banner__content container">
                 <div class="section__head">
-                    <h2 class="">COVID-19 Be Aware Of Coronavirus</h2>
-                    <h1 class="section__title">Protect Yourself From Virus.</h1>
-                    <p class="">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookng.</p>
+                    <h3 class=""><span class="font--orng">COVID-19 </span> Be Aware Of Coronavirus</h3>
+                    <h1 class="banner__title">Protect Yourself From <span class="font--orng">Virus.</span></h1>
+                    <p class="section__info">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer taking.</p>
                     <button class="btn">View Product</button>
                 </div>
                 <div class="banner__img">
-                    <img class="banner__img--front" src="assets/images/LadyWearingMask.png" alt="">
-                    <!--<img class="banner__img--back" src="assets/images/OrangeColor.png" alt="">-->
+                    <img class="banner__img--front img" src="assets/images/LadyWearingMask.png" alt="">
                 </div>
                 <img class="virusPosition--L" src="assets/images/virus.svg" alt="">
                 <img class="virusPosition--M" src="assets/images/virus.svg" alt="">
@@ -79,60 +78,81 @@
         </section>
 
         <!-- Products's Top Section-->
-        <section class="TopSection font--gray">
+        <section class="TopSection font--gray section">
             <div class="Inner__Section container">
-                <div class="Section__content">
+                <div class="Section__content bg--clr1">
                     <div class="section__head">
-                        <h2 class="section__title">Health Security Mask Collection</h2>
-                        <p class="Section__info">20% Off</p>
-                        <button class="btn">View Now</button>
+                        <h2 class="section__subtitle align--l">Health Security Mask Collection</h2>
                     </div>
                     <div class="ProductItem">
-                        <img class="ProductItem__img img" src="assets/images/MaskLayers.png" alt="">
+                        <div class="product__content">
+                            <p class="price__info">20% Off</p>
+                            <button class="btn">View Now</button>
+                        </div>
+                        <div class="product__imgbox">
+                            <img class="ProductItem__img img" src="assets/images/MaskLayers.png" alt="">
+                        </div>
+                        
                     </div>
                 </div>
-                <div class="Section__content">
+                
+                <div class="Section__content bg--clr2">
                     <div class="section__head">
-                        <h2 class="section__title">Best Hand Sanitizer Collection</h2>
-                        <p class="Section__info">40% Off</p>
-                        <button class="btn">View Now</button>
+                        <h2 class="section__subtitle align--l">Best Hand Sanitizer Collection</h2>
                     </div>
                     <div class="ProductItem">
-                        <img class="ProductItem__img img" src="assets/images/Sanitizer3.png" alt="">
+                        <div class="product__content">
+                            <p class="price__info">40% Off</p>
+                        <button class="btn">View Now</button>
+                        </div>
+                        <div class="product__imgbox">
+                            <img class="ProductItem__img img" src="assets/images/Sanitizer3.png" alt="">
+                        </div>
+                        
                     </div>
                 </div>
-                <div class="Section__content">
+
+                <div class="Section__content bg--clr3">
                     <div class="section__head">
-                        <h2 class="section__title">Medical Gloves & Sunglasses Collection</h2>
-                        <p class="Section__info">20% Off</p>
-                        <button class="btn">View Now</button>
+                        <h2 class="section__subtitle align--l">Medical Gloves & Sunglasses Collection</h2>
                     </div>
                     <div class="ProductItem">
-                        <img class="ProductItem__img img" src="assets/images/SafetyGlassesGlove.png" alt="">
+                        <div class="product__content">
+                            <p class="price__info">20% Off</p>
+                            <button class="btn">View Now</button>
+                        </div>
+                        <div class="product__imgbox">
+                            <img class="ProductItem__img img" src="assets/images/SafetyGlassesGlove.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Feature Section-->
-        <section class="font--gray">
+        <section class="feature font--gray">
             <div class="container">
                 <div class="section__head">
                     <h3 class="section__subtitle">Protect your health</h3>
                     <h2 class="section__title">Our Feature Products</h2>
                 </div>
                 <div class="feature__content">
-                    <div class="">
-                        <div> 
-                            <img class="img" src="assets/images/mask1.png" alt="">
-                            <img src="assets/images/tag.png" alt="">
+                    <!-- 1 -->
+                    <div class="product">
+                        <div class="product__box bg--clr4"> 
+                            <img class="product__img img" src="assets/images/mask1.png" alt="">
+                            <div class="priceTag__box">
+                                <span class="offer__price">20% OFF</span>
+                            </div>
                         </div>
-                        <div>
+                        <div class="product__detail">
                             <h4 class="Product__title">Customized Reusable Face Mask</h4>
-                            <div>
-                                <span><h4 class="Product__price">$20.00</h4></span>
-                                <span><p class="Product__price--strike">$4.00</p></span>
+                            <div class="price__box">
                                 <div>
+                                    <span class="Product__price">$20.00</span>
+                                    <span class="Product__price--strike">$4.00</span>
+                                </div>
+                                <div class="rating">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="22.667" height="21.822" viewBox="0 0 22.667 21.822"><defs><style>.a{fill:#ff6d33;}</style></defs><g transform="translate(0 -9.55)"><path class="a" d="M22.667,17.878l-8.235-.531-3.108-7.8-3.108,7.8L0,17.878l6.3,5.366L4.232,31.372l7.092-4.489,7.092,4.489-2.072-8.128Z"/><path class="a" d="M260.82,23.243l2.072,8.128L255.8,26.883V9.55l3.108,7.8,8.235.531Z" transform="translate(-244.475)"/></g></svg>
 
                                     <svg xmlns="http://www.w3.org/2000/svg" width="22.667" height="21.822" viewBox="0 0 22.667 21.822"><defs><style>.a{fill:#ff6d33;}</style></defs><g transform="translate(0 -9.55)"><path class="a" d="M22.667,17.878l-8.235-.531-3.108-7.8-3.108,7.8L0,17.878l6.3,5.366L4.232,31.372l7.092-4.489,7.092,4.489-2.072-8.128Z"/><path class="a" d="M260.82,23.243l2.072,8.128L255.8,26.883V9.55l3.108,7.8,8.235.531Z" transform="translate(-244.475)"/></g></svg>
@@ -147,25 +167,194 @@
                             </div>
                         </div>
                     </div>
+                    <!-- 2 -->
+                    <div class="product">
+
+                        <div class="product__box bg--clr2"> 
+                            <img class="product__img img" src="assets/images/sanitizer.png" alt="">
+                            <div class="priceTag__box">
+                                <span class="offer__price">20% OFF</span>
+                            </div>
+                        </div>
+
+                        <div class="product__detail">
+                            <h4 class="Product__title">Young Vision Hand Sanitizer</h4>
+                            <div class="price__box">
+                                <div>
+                                    <span class="Product__price">$30.00</span>
+                                    <span class="Product__price--strike">$2.00</span>
+                                </div>
+                                <div class="rating">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/.png" alt="">
+                                    <img class="RatingStar" src="assets/images/.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- 3 -->
+                    <div class="product">
+                        <div class="product__box bg--clr4"> 
+                            <img class="product__img img" src="assets/images/mask3.png" alt="">
+                            <div class="priceTag__box">
+                                <span class="offer__price">20% OFF</span>
+                            </div>
+                        </div>
+                        <div class="product__detail">
+                            <h4 class="Product__title">Customized Reusable Face Mask</h4>
+                            <div class="price__box">
+                                <div>
+                                    <span class="Product__price">$35.00</span>
+                                    <span class="Product__price--strike">$8.00</span>
+                                </div>
+                                <div class="rating">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/.png" alt="">
+                                    <img class="RatingStar" src="assets/images/.png" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="product">
+                        <div class="product__box bg--clr4"> 
+                            <img class="product__img img" src="assets/images/sanitizergel.png" alt="">
+                            <div class="priceTag__box">
+                                <span class="offer__price">20% OFF</span>
+                            </div>
+                        </div>
+                        <div class="product__detail">
+                            <h4 class="Product__title">Young Vision Hand Sanitizer</h4>
+                            <div class="price__box">
+                                <div>
+                                    <span class="Product__price">$25.00</span>
+                                    <span class="Product__price--strike">$5.00</span>
+                                </div>
+                                <div class="rating">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="product">
+                        <div class="product__box bg--clr4"> 
+                            <img class="product__img img" src="assets/images/mask2.png" alt="">
+                            <div class="priceTag__box">
+                                <span class="offer__price">20% OFF</span>
+                            </div>
+                        </div>
+                        <div class="product__detail">
+                            <h4 class="Product__title">Customized Reusable Face Mask</h4>
+                            <div class="price__box">
+                                <div>
+                                    <span class="Product__price">$10.00</span>
+                                    <span class="Product__price--strike">$2.00</span>
+                                </div>
+                                <div class="rating">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/.png" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="product">
+                        <div class="product__box bg--clr4"> 
+                            <img class="product__img img" src="assets/images/gloes.png" alt="">
+                            <div class="priceTag__box">
+                                <span class="offer__price">20% OFF</span>
+                            </div>
+                        </div>
+                        <div class="product__detail">
+                            <h4 class="Product__title">Care Plus Medical Gloves</h4>
+                            <div class="price__box">
+                                <div>
+                                    <span class="Product__price">$16.00</span>
+                                    <span class="Product__price--strike">$5.00</span>
+                                </div>
+                                <div class="rating">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/star.png" alt="">
+                                    <img class="RatingStar" src="assets/images/.png" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
+                <button class="btn">View All Products</button>
             </div>
         </section>
 
-        <!-- 65978 Section-->
-        <section class="bg--grey font--gray">
-            <div class="container">
-                <div class="section__head">
-                    <h2 class="section__title">title</h2>
+        <!-- Offer Section-->
+        <section class="offerSection section bg--grey font--gray">
+            <div class="offer__inner container">
+                <div class="offer__content">
+                    <h3 class="section__subtitle"><span class="font--orng">COVID-19 </span> Be Aware Of Coronavirus</h3>
+                    <h2 class="section__title">Corona Health Protection Safety Kit.</h2>
+                    <p class="section__info">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookng.</p>
+                    <button class="btn">Buy Now</button>
+                    <p>Only for<span class="font--orng">$200.00</span></p>
                 </div>
-                
+                <div class="aside__right">
+                    <div class="aside__img">
+                        <img class="img__base" src="assets/images/Sanitizer2.png" alt="">
+                        <img class="img__upside img" src="assets/images/ProtectShield.png" alt="">
+                        <img class="img__rightside img" src="assets/images/MaskLayers.png" alt="">
+                    </div>
+                    <img class="corner__img img" src="assets/images/AboutUsLady.png" alt="">
+                </div>
             </div>
         </section>
 
         <!-- Review Section-->
-        <section class="font--gray">
-            <div class="container">
+        <section class="font--gray ">
+            <div class="review container">
                 <div class="section__head">
-                    <h2 class="section__title">title</h2>
+                    <h3 class="section__subtitle">Protect your health</h3>
+                    <h2 class="section__title">Our Beloved Customer</h2>
+                </div>
+                <div class="review__content">
+                    <div class="review__Subcontent">
+                        <img src="assets/images/Comma.png" alt="" class="comma">
+                        <img class="customer__img" src="assets/images/customer1.png" alt="">
+                        <p class="comment">This is very best product lorem has been the industry's standard dummy text ever since to very the 1500s😍</p>
+                        <h4 class="customer__nm">Eduard Franz</h4>
+                    </div>
+                    <div class="review__Subcontent">
+                        <img src="assets/images/Comma.png" alt="" class="comma">
+                        <img class="customer__img" src="assets/images/customer2.png" alt="">
+                        <p class="comment">This is very best product lorem has been the industry's standard dummy text ever since to very the 1500s👍</p>
+                        <h4 class="customer__nm">Abriella Bond</h4>
+                    </div>
+                    <div class="review__Subcontent">
+                        <img src="assets/images/Comma.png" alt="" class="comma">
+                        <img class="customer__img" src="assets/images/customer3.png" alt="">
+                        <p class="comment">This is very best product lorem has been the industry's standard dummy text ever since to very the 1500s🧡</p>
+                        <h4 class="customer__nm">Kinslee Fink</h4>
+                    </div>
+                    <div>
+                        <input type="radio" name="" id="">
+                        <input type="radio" name="" id="">
+                        <input type="radio" name="" id="">
+                    </div>
                 </div>
             </div>
         </section>
@@ -174,8 +363,49 @@
         <footer class="footer bg--grey font--gray">
             <div class="footer__inner container">
                 <div class="section__head">
-                    <h2 class="section__title">title</h2>
+                    <img src="assets/images/covid19.png" alt="">
+                    <p class="Section__info">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
+                    <div>
+                        <img src="assets/images/facebook.png" alt="" class="socialMedia">
+                        <img src="assets/images/twitter.png" alt="" class="socialMedia">
+                        <img src="assets/images/youtube.png" alt="" class="socialMedia">
+                        <img src="assets/images/linkedin.png" alt="" class="socialMedia">
+                    </div>
                 </div>
+                <div>
+                    <h2 class="section__title">Links</h2>
+                    <ul>
+                        <li>Shop</li>
+                        <li>Product</li>
+                        <li>Collection</li>
+                        <li>About Corona</li>
+                        <li>Company</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="section__title">Company Support</h2>
+                    <ul>
+                        <li>Maintenance</li>
+                        <li>Support</li>
+                        <li>Reviews</li>
+                        <li>Contact us</li>
+                        <li>Privacy policy</li>
+                        <li>Frequently Asked Questions</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="section__title">Follow us on Instagram</h2>
+                    <div>
+                        <img src="assets/images/Image1.png" alt="" class="gallery">
+                        <img src="assets/images/Image2.png" alt="" class="gallery">
+                        <img src="assets/images/Image3.png" alt="" class="gallery">
+                        <img src="assets/images/Image4.png" alt="" class="gallery">
+                        <img src="assets/images/Image5.png" alt="" class="gallery">
+                        <img src="assets/images/Image6.png" alt="" class="gallery">
+                    </div>
+                </div>
+                <h3>© Copyright, Company, 2020</h3>
             </div>
         </footer>
 
