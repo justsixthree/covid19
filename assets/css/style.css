@@ -240,45 +240,20 @@
 /* // Feature Section terminated here */
 
 /* Offer Section Start here */
-.offerSection{
-    background-color: #fef2ee;
-}
-.offer__inner {
-    position: relative;
-    background-image: url('../images/protectionkit.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 20px 0;
-}
-.width--s{
-    width: 625px;
+.offer__inner{
+    display: flex;
+    width: 100%;
 }
 .offer__content{
-    padding-right: 30px;
+    width: 50%;
 }
-/*
-.aside__img{
-    width: 60%;
+.cornerImgBox{
+    height: 400px;
+    width: 50%;
+    display: flex;
+    background-color: #fff;
 }
-.corner__img{
-    width: 40%;
-}
-.img__upside{
-    position: relative;
-    top: -600px;
-    left: 70px;
-}
-.img__base{
-    position: relative;
-    top: 6px;
-    left: -70px;
-}
-.img__rightside{
-    position: relative;
-    top: -670px;
-    left: 300px;
-    transform: rotate(10deg);
-}
+/* background-color: #fef2ee; */
 /* // Offer Section terminated here */
 
 /* Review Section Start here */
