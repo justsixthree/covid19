@@ -5,64 +5,70 @@
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>Covid-19</title>
-                <link rel="stylesheet" href="assets/slick slider/slick-1.8.1/slick/slick.css">
-                <link rel="stylesheet" href="assets/slick slider/slick-1.8.1/slick/slick-theme.css">
+                <link rel="stylesheet" href="assets/slick-slider/slick-1.8.1/slick/slick.css">
+                <link rel="stylesheet" href="assets/slick-slider/slick-1.8.1/slick/slick-theme.css">
                 <link rel="stylesheet" href="assets/css/style.css">
                 <link rel="stylesheet" href="assets/css/responsive.css">
         </head>
 
     <body>
             <!-- Header Section-->
-            <header id="header" class="bg--grey">
-                <div id="header__content" class="container">
+            <header class="header bg--grey">
+                <div class="header__content container">
                     <div class="logo">
                         <a class="logo__link" href="#">
-                            <img class="logo__img" src="assets/images/covid19.png">
+                            <img class="logo__img" src="assets/images/covid19.png" alt="">
                         </a>
                     </div>
                     <!--Navigation Bar -->
-                    <nav id="nav">
-                        <ul id="navbar">
+                    <nav class="nav">
+                        <ul class="navbar">
                             <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
                             <li class="nav__item"><a class="nav__link" href="#">About us</a></li>
                             <li class="nav__item"><a class="nav__link" href="#">Product view</a></li>
-                            <li class="nav__item"><a class="nav__link" href="#">Gallery</a></li>
-                            <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">Shop Now</a></li>
                             <li class="nav__item"><a class="nav__link" href="#">Contact us</a></li>   
                         </ul>
                     </nav>
-                    <div id="header__right">
-                        <button class="btn btn--primary">Order Now</button>
+                    <div class="shopIcon">
+                        <a href="#">
+                            <img class="shoppingBag img" src="assets/images/presents.png" alt="">
+                        </a>
                     </div>
-                    <input type="checkbox" id="openSidebarMenu">
+                    <div class="header__right">
+                        <button class="btn btn--primary">Sign Up</button>
+                    </div>
+                    <!-- <input type="checkbox" id="openSidebarMenu">
                     <label for="openSidebarMenu" class="sidebarIconToggle">
                         <div class="spinner top"></div>
                         <div class="spinner middle"></div>
                         <div class="spinner bottom"></div>
-                    </label>
+                    </label> -->
                 </div>
             </header>
 
             <!-- Banner Section-->
-            <section id="banner" class="bg--grey">
-                <div id="banner__content" class="container">
+            <section class="banner bg--grey">
+                <div class="banner__content container">
                     <div class="section__head">
-                        <h2 id="banner__subtitle"><span class="font--orng">COVID-19 </span> Be Aware Of Coronavirus</h2>
-                        <h1 id="banner__title">Protect Yourself From <span class="font--orng">Virus.</span></h1>
+                        <h2 class="banner__subtitle"><span class="font--orng">COVID-19 </span> Be Aware Of Coronavirus</h2>
+                        <h1 class="banner__title">Protect Yourself From <span class="font--orng">Virus.</span></h1>
                         <p class="section__info">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer taking.</p>
                         <button class="btn btn--primary btn--inblock">View Product</button>
                     </div>
-                    <div id="bannerImg__container">
-                        <img class="banner__img img" src="assets/images/LadyWearingMask.png">
+                    <div class="bannerImg__container">
+                        <img class="banner__img img" src="assets/images/LadyWearingMask.png" alt="">
                     </div>
-                    <img class="virusPosition--L virus__img" src="assets/images/virus.svg">
-                    <img class="virusPosition--M virus__img" src="assets/images/virus.svg">
-                    <img class="virusPosition--R virus__img" src="assets/images/virus.svg">
+
+                    <img class="virusPosition--L virus__img" src="assets/images/virus.svg" alt="">
+                    <img class="virusPosition--M virus__img" src="assets/images/virus.svg" alt="">
+                    <img class="virusPosition--R virus__img" src="assets/images/virus.svg" alt="">
+
                 </div>
             </section>
 
             <!-- Products's Collection Section-->
-            <section id="collection" class="section">
+            <section class="collection section">
                 <div class="Inner__Section container">
                     <div class="Section__content bg--clr1">
                         <div class="section__head">
@@ -74,12 +80,13 @@
                                 <button class="btn btn--primary">View Now</button>
                             </div>
                             <div class="productImgBox">
-                                <img class="ProductItem__img img rotate10" src="assets/images/MaskLayers.png">
+                                <img class="ProductItem__img img rotate10" src="assets/images/MaskLayers.png" alt="">
                             </div>
                             
                         </div>
                     </div>
                     
+
                     <div class="Section__content bg--clr2">
                         <div class="section__head">
                             <h2 class="section__subtitle">Best Hand Sanitizer Collection</h2>
@@ -90,7 +97,7 @@
                             <button class="btn btn--primary">View Now</button>
                             </div>
                             <div class="productImgBox">
-                                <img class="ProductItem__img img" src="assets/images/Sanitizer3.png">
+                                <img class="ProductItem__img img" src="assets/images/Sanitizer3.png" alt="">
                             </div>
                             
                         </div>
@@ -106,7 +113,7 @@
                                 <button class="btn btn--primary">View Now</button>
                             </div>
                             <div class="productImgBox">
-                                <img class="ProductItem__img img" src="assets/images/SafetyGlassesGlove.png">
+                                <img class="ProductItem__img img" src="assets/images/SafetyGlassesGlove.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -125,7 +132,7 @@
                         <li class="card__wrapper">
                             <div class="feature__card">
                                 <div class="card__img__wrapper">
-                                    <img class="card__img" src="assets/images/mask1.png">
+                                    <img class="card__img" src="assets/images/mask1.png" alt="">
                                     <div class="priceTag">
                                         <p class="priceTag__info">30% OFF</p>
                                     </div>
@@ -144,11 +151,11 @@
                                             </h4>
                                         </div>
                                         <div class="card__rating">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -158,16 +165,16 @@
                         <li class="card__wrapper">
                             <div class="feature__card">
                                 <div class="card__img__wrapper">
-                                    <img class="card__img" src="assets/images/sanitizer.png">
+                                    <img class="card__img" src="assets/images/sanitizer.png" alt="">
                                     <div class="priceTag">
                                         <p class="priceTag__info">10% OFF</p>
                                     </div>
                                     <!-- === like and add to cart button start === -->
-                                    <div id="cart">
+                                    <div class="cart">
                                         <button class="btn btn--primary btn--block">Add to Cart</button>
-                                        <div id="icon__container" class="Inner__Section">
-                                            <img src="assets/images/eyeIcon.png" class="icon">
-                                            <img src="assets/images/heartIcon.png" class="icon">
+                                        <div class="icon__container Inner__Section">
+                                            <img src="assets/images/eyeIcon.png" class="icon" alt="">
+                                            <img src="assets/images/heartIcon.png" class="icon" alt="">
                                         </div>
                                     </div>
                                     <!-- === like and add to cart button end === -->
@@ -186,11 +193,11 @@
                                             </h4>
                                         </div>
                                         <div class="card__rating">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -200,7 +207,7 @@
                         <li class="card__wrapper">
                             <div class="feature__card">
                                 <div class="card__img__wrapper">
-                                    <img class="card__img" src="assets/images/mask3.png">
+                                    <img class="card__img" src="assets/images/mask3.png" alt="">
                                     <div class="priceTag">
                                         <p class="priceTag__info">25% OFF</p>
                                     </div>
@@ -219,11 +226,11 @@
                                             </h4>
                                         </div>
                                         <div class="card__rating">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -233,7 +240,7 @@
                         <li class="card__wrapper">
                             <div class="feature__card">
                                 <div class="card__img__wrapper">
-                                    <img class="card__img" src="assets/images/sanitizergel.png">
+                                    <img class="card__img" src="assets/images/sanitizergel.png" alt="">
                                     <div class="priceTag">
                                         <p class="priceTag__info">30% OFF</p>
                                     </div>
@@ -252,11 +259,11 @@
                                             </h4>
                                         </div>
                                         <div class="card__rating">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -266,7 +273,7 @@
                         <li class="card__wrapper">
                             <div class="feature__card">
                                 <div class="card__img__wrapper">
-                                    <img class="card__img" src="assets/images/mask2.png">
+                                    <img class="card__img" src="assets/images/mask2.png" alt="">
                                     <div class="priceTag">
                                         <p class="priceTag__info">30% OFF</p>
                                     </div>
@@ -285,11 +292,11 @@
                                             </h4>
                                         </div>
                                         <div class="card__rating">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -299,7 +306,7 @@
                         <li class="card__wrapper">
                             <div class="feature__card">
                                 <div class="card__img__wrapper">
-                                    <img class="card__img" src="assets/images/gloes.png">
+                                    <img class="card__img" src="assets/images/gloes.png" alt="">
                                     <div class="priceTag">
                                         <p class="priceTag__info">15% OFF</p>
                                     </div>
@@ -318,11 +325,11 @@
                                             </h4>
                                         </div>
                                         <div class="card__rating">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
-                                            <img class="RatingStar" src="assets/images/star.png">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -330,8 +337,9 @@
                         </li>
                     </ul>
                     <button class="btn btn--primary btn--inblock">View All Products</button>
-                    <img class="virusPosition--mL virus__img" src="assets/images/virus.svg">
-                    <img class="virusPosition--R virus__img" src="assets/images/virus.svg">
+                    <img class="virusPosition--L virus__img" src="assets/images/virus.svg" alt="">
+                    <!-- ml -->
+                    <img class="virusPosition--R virus__img" src="assets/images/virus.svg" alt="">
                 </div>
             </section>
 
@@ -349,18 +357,20 @@
                             </p>
                         </div>
                         <div class="cornerImgBox">
-                            <img class="cornerImg img" src="assets/images/protectionkit.jpg">
+                            <img class="cornerImg img" src="assets/images/protectionkit.jpg" alt="">
                         </div>
                     </div>
                     <div class="offerRightContent">
-                        <img class="img" src="assets/images/AboutUsLady.png">
+                        <img class="img" src="assets/images/AboutUsLady.png" alt="">
                     </div>
+                    <img class="virusPosition--R virus__img" src="assets/images/virus.svg" alt="">
+                    <img class="virusPosition--L virus__img" src="assets/images/virus.svg" alt="">
                 </div>
-                <img class="virusPosition--R virus__img" src="assets/images/virus.svg">
+                
             </section>
 
             <!-- Review Section-->
-            <section id="review" class="section">
+            <section class="review section">
                 <div class="review__inner container">
                     <div class="section__head">
                         <h3 class="section__subtitle">Protect your health</h3>
@@ -370,61 +380,55 @@
                     <div class="slider_content">
                         <div class="review__content section">
                             <div class="review__Subcontent">
-                                <img src="assets/images/Comma.png" class="comma">
-                                <img class="customer__img" src="assets/images/customer1.png">
+                                <img class="comma" src="assets/images/Comma.png" alt="">
+                                <img class="customer__img" src="assets/images/customer1.png" alt="">
                                 <p class="comment">This is very best product lorem has been the industry's standard dummy text ever since to very the 1500s😍</p>
                                 <h4 class="customer__nm">Eduard Franz</h4>
                             </div>                      
                         </div>
                         <div class="review__content section">
                             <div class="review__Subcontent">
-                                <img src="assets/images/Comma.png" class="comma">
-                                <img class="customer__img" src="assets/images/customer1.png">
+                                <img class="comma" src="assets/images/Comma.png" alt="">
+                                <img class="customer__img" src="assets/images/customer1.png" alt="">
                                 <p class="comment">This is very best product lorem has been the industry's standard dummy text ever since to very the 1500s😍</p>
                                 <h4 class="customer__nm">Eduard Franz</h4>
                             </div>
                         </div>
                         <div class="review__content section">
                             <div class="review__Subcontent">
-                                <img src="assets/images/Comma.png" class="comma">
-                                <img class="customer__img" src="assets/images/customer1.png">
+                                <img class="comma" src="assets/images/Comma.png" alt="">
+                                <img class="customer__img" src="assets/images/customer1.png" alt="">
                                 <p class="comment">This is very best product lorem has been the industry's standard dummy text ever since to very the 1500s😍</p>
                                 <h4 class="customer__nm">Eduard Franz</h4>
                             </div>
                         </div>
                         <div class="review__content section">
                             <div class="review__Subcontent">
-                                <img src="assets/images/Comma.png" class="comma">
-                                <img class="customer__img" src="assets/images/customer1.png">
+                                <img class="comma" src="assets/images/Comma.png" alt="">
+                                <img class="customer__img" src="assets/images/customer1.png" alt="">
                                 <p class="comment">This is very best product lorem has been the industry's standard dummy text ever since to very the 1500s😍</p>
                                 <h4 class="customer__nm">Eduard Franz</h4>
                             </div>
                         </div>
                         <div class="review__content section">
                             <div class="review__Subcontent">
-                                <img src="assets/images/Comma.png" class="comma">
-                                <img class="customer__img" src="assets/images/customer1.png">
+                                <img class="comma" src="assets/images/Comma.png" alt="">
+                                <img class="customer__img" src="assets/images/customer1.png" alt="">
                                 <p class="comment">This is very best product lorem has been the industry's standard dummy text ever since to very the 1500s😍</p>
                                 <h4 class="customer__nm">Eduard Franz</h4>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="scroll__slider">
-                        <button class="scroll__btn"></button>
-                        <button class="scroll__btn"></button>
-                        <button class="scroll__btn"></button>
-                    </div> -->
-                    <img class="virusPosition--L virus__img" src="assets/images/virus.svg">
                 </div>
             </section>
 
             <!--- Footer Section-->
-            <footer id="footer" class="bg--grey">
+            <footer class="footer bg--grey">
                 <div class="container">
                     <div class="footer__inner">
                         <div class="footer__menu--left">
                             <a class="logo__link" href="#">
-                                <img class="logo__img" src="assets/images/covid19.png">
+                                <img class="logo__img" src="assets/images/covid19.png" alt="">
                             </a>
                             <p class="Section__info">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
                             <!--Social Media -->
@@ -432,19 +436,19 @@
                                 <ul class="social__menu__list menu__list">
                                     <li class="menu__list__item">
                                         <a class="menu__link" href="www.facebook.com">
-                                            <img class="socialMedia facebook" src="assets/images/facebook.png"></a>
+                                            <img class="socialMedia facebook" src="assets/images/facebook.png" alt=""></a>
                                     </li>
                                     <li class="menu__list__item">
                                         <a class="menu__link" href="www.twitter.com">
-                                            <img class="socialMedia twitter" src="assets/images/twitter.png"></a>
+                                            <img class="socialMedia twitter" src="assets/images/twitter.png" alt=""></a>
                                     </li>
                                     <li class="menu__list__item">
                                         <a class="menu__link" href="www.youtube.com">
-                                            <img class="socialMedia youtube" src="assets/images/youtube.png"></a>
+                                            <img class="socialMedia youtube" src="assets/images/youtube.png" alt=""></a>
                                     </li>
                                     <li class="menu__list__item">
                                         <a class="menu__link" href="www.linkedin.com">
-                                            <img class="socialMedia twitter" src="assets/images/linkedin.png"></a>
+                                            <img class="socialMedia twitter" src="assets/images/linkedin.png" alt=""></a>
                                     </li>
                                 </ul>
                             </div>
@@ -479,25 +483,49 @@
                         <div class="footer__menu--right"> 
                             <H3 class="footer__menu__title">Follow us on Instagram</H3>
                             <ul class="menu__list--gallery">
-                                <li class="menu__list__item"><a class="menu__link" href="#"><img src="assets/images/Image1.png" class="gallery"></a></li>
-                                <li class="menu__list__item"><a class="menu__link" href="#"><img src="assets/images/Image2.png" class="gallery"></a></li>
-                                <li class="menu__list__item"><a class="menu__link" href="#"><img src="assets/images/Image3.png" class="gallery"></a></li>
-                                <li class="menu__list__item"><a class="menu__link" href="#"><img src="assets/images/Image4.png" class="gallery"></a></li>
-                                <li class="menu__list__item"><a class="menu__link" href="#"><img src="assets/images/Image5.png" class="gallery"></a></li>
-                                <li class="menu__list__item"><a class="menu__link" href="#"><img src="assets/images/Image6.png" class="gallery"></a></li>
+                                <li class="menu__list__item">
+                                    <a class="menu__link" href="#">
+                                        <img class="gallery" src="assets/images/Image1.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="menu__list__item">
+                                    <a class="menu__link" href="#">
+                                        <img class="gallery" src="assets/images/Image2.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="menu__list__item">
+                                    <a class="menu__link" href="#">
+                                        <img class="gallery" src="assets/images/Image3.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="menu__list__item">
+                                    <a class="menu__link" href="#">
+                                        <img class="img4 gallery" src="assets/images/Image4.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="menu__list__item">
+                                    <a class="menu__link" href="#">
+                                        <img class="gallery" src="assets/images/Image5.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="menu__list__item">
+                                    <a class="menu__link" href="#">
+                                        <img class="gallery" src="assets/images/Image6.png" alt="">
+                                    </a>
+                                </li>
                             </ul>
                         </div>
-                        <img class="virusPosition--L virus__img--s" src="assets/images/virus.svg">
-                        <img class="virusPosition--M virus__img--s" src="assets/images/virus.svg">
-                        <img class="virusPosition--R virus__img--s" src="assets/images/virus.svg">
+                        <img class="virusPosition--L virus__img--s" src="assets/images/virus.svg" alt="">
+                        <img class="virusPosition--M virus__img--s" src="assets/images/virus.svg" alt="">
+                        <img class="virusPosition--R virus__img--s" src="assets/images/virus.svg" alt="">
                     </div>
                     
                 </div>
                 <h4 class="info">© Copyright, Company, 2020</h4>
             </footer>
             <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-            <Script src="assets/slick slider/slick-1.8.1/slick/slick.min.js"></Script>
-            <Script src="assets/slick slider/slick-1.8.1/slick/slick.js"></Script>
+            <Script src="assets/slick-slider/slick-1.8.1/slick/slick.min.js"></Script>
+            <Script src="assets/slick-slider/slick-1.8.1/slick/slick.js"></Script>
             <script src="assets/javascript.js"></script>
 
     </body>

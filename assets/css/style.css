@@ -5,10 +5,15 @@
 }
 @font-face{
     font-family: Poppins;
+    font-family: 'Poppins';
+ 
     src: url(../fonts-poppins/Poppins-Regular.ttf);
 }
 body{
     font-family: Poppins;
+}
+.banner, .feature, .offerSection, .footer{
+    overflow: hidden;
 }
 h1, h2, h3, h4, p, a{
     color: #3A393E;
@@ -76,7 +81,7 @@ a, a:hover{
 /* // Common Classes terminated here */
 
 /* Header Section Start here */
-#header__content{
+.header__content{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,9 +91,10 @@ a, a:hover{
     top: 0;
     left: 0;*/
 }
-#navbar{
+.navbar{
     display: flex;
 }
+
 .nav__link:hover {
     background-color: #FF6D33;
     color: #fff;
@@ -96,17 +102,22 @@ a, a:hover{
 .logo__img{
     padding: 10px;
 }
-
+.shopIcon{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    padding: 5px;
+}
 /* // Header Section terminated here */
 
 
 /* banner Section Start here */
-#banner__content{
+.banner__content{
     display: flex;
     width: 100%;
     position: relative;
 }
-#banner__title {
+.banner__title {
     font-size: 80px;
     line-height: 1em;
     padding: 20px 0;
@@ -117,10 +128,10 @@ a, a:hover{
     justify-content: center;
 }
 .section__info, .card__heading{
-    padding: 15px 0;
+    margin: 15px 0;
     font-size: 22px;
 }
-#bannerImg__container {
+.bannerImg__container {
     width: 60%;
     background: url('../images/OrangeColor.png') no-repeat;
     background-size: contain;
@@ -133,7 +144,7 @@ a, a:hover{
 }
 .virusPosition--L{
     bottom: 0;
-    left: -160px;
+    left: -170px;
 }
 .virusPosition--M {
    bottom: 50px;
@@ -141,7 +152,7 @@ a, a:hover{
 }
 .virusPosition--R {
    top: 0;
-   right: -150px;
+   right: -207px;
 }
 
 /* // banner Section terminated here */
@@ -180,6 +191,7 @@ a, a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 .feature__cards{
     display: flex;
@@ -205,6 +217,10 @@ a, a:hover{
 .card__img{
     height: 300px;
 }
+.card__img:hover > {
+    opacity: 0.5;
+    
+}
 .priceTag{
     background: url('../images/tag.png') no-repeat;
     height: 100px;
@@ -218,12 +234,12 @@ a, a:hover{
     color: #fff;
 }
 /* Button and Icons*/
-#cart{
+.cart{
     position: relative;
     bottom: 200px;
     width: 42%;
     margin: 0 auto;
-    
+    display: none;
 }
 .icon{ 
     width: 40%;
@@ -241,6 +257,7 @@ a, a:hover{
 .offer__inner{
     display: flex;
     width: 100%;
+    position: relative;
 }
 .offerPrice{
     display: inline-block;
@@ -359,6 +376,10 @@ a, a:hover{
 }
 .youtube{
     background-color: #FF0000;
+}
+.img4{
+    object-fit: cover;
+    object-position: top;
 }
 /* // footer Section terminated here */
 
