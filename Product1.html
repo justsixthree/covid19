@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header bg--grey">
+        <div class="header__content container">
+            <div class="logo">
+                <a class="logo__link" href="#">
+                    <img class="logo__img" src="assets/images/covid19.png" alt="">
+                </a>
+            </div>
+            <!--Navigation Bar -->
+            <nav class="nav">
+                <ul class="navbar">
+                    <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">About us</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Product view</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Shop Now</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Contact us</a></li>   
+                </ul>
+            </nav>
+            <div class="shopIcon">
+                <a href="#">
+                    <img class="shoppingBag img" src="assets/images/presents.png" alt="">
+                </a>
+            </div>
+            <div class="header__right">
+                <button class="btn btn--primary">Sign Up</button>
+            </div>
+        </div>
+    </header>
+
+    <!--- feature Section Start-->
+    <section  class="feature section">
+        <div class="feature_in container">
+            <div class="section__head">
+                <h3 class="section__subtitle">Protect your health</h3>
+                <h2 class="section__title">Our Feature Products</h2>
+            </div>
+            <div class="productSection">
+                <div class="productLeft category">
+                    <div class="section__head">
+                        <h2 class="section__title">Category</h2>
+                    </div>
+                    <label for="">N95 Mask</label>
+                    <label for="">Mask</label>
+                    <label for="">Color</label>
+                    <div class="colorPalette">
+                        <input class="colorItem" type="radio" name="colorItem" id="red">
+                        <input class="colorItem" type="radio" name="colorItem" id="purple">
+                        <input class="colorItem" type="radio" name="colorItem" id="yellow">
+                        <input class="colorItem" type="radio" name="colorItem" id="blue">
+                        <input class="colorItem" type="radio" name="colorItem" id="green">
+                        <input class="colorItem" type="radio" name="colorItem" id="pink">
+                    </div>
+                    <!-- <ul class="colorPalette">
+                        <li class="colorItem">
+                            <input type="radio" name="" id="">
+                        </li>
+                        <li class="colorItem"></li>
+                        <li class="colorItem"></li>
+                        <li class="colorItem"></li>
+                        <li class="colorItem"></li>
+                        <li class="colorItem"></li>
+                    </ul> -->
+                </div>
+                <div class="productRight">
+                    <ul class="feature__cards">
+                        <!-- 1 -->
+                        <li class="card__wrapper">
+                            <div class="feature__card">
+                                <div class="card__img__wrapper">
+                                    <img class="card__img img" src="assets/images/mask1.png" alt="">
+                                    <div class="priceTag">
+                                        <p class="priceTag__info">30% OFF</p>
+                                    </div>
+                                </div>
+                                <div class="card__content">
+                                    <h2 class="card__heading">
+                                        Customized Reusable Face Mask
+                                    </h2> 
+                                    <div class="card__review">
+                                        <div class="card__price">
+                                            <h4>
+                                                $20.00
+                                                <del> 
+                                                    $4.00
+                                                </del>
+                                            </h4>
+                                        </div>
+                                        <div class="card__rating">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- 2 -->
+                        <li class="card__wrapper">
+                            <div class="feature__card">
+                                <div class="card__img__wrapper">
+                                    <img class="card__img img" src="assets/images/sanitizer.png" alt="">
+                                    <div class="priceTag">
+                                        <p class="priceTag__info">10% OFF</p>
+                                    </div>
+                                </div>
+                                <div class="card__content">
+                                    <h2 class="card__heading">
+                                        Young Vision Hand Sanitizer
+                                    </h2> 
+                                    <div class="card__review">
+                                        <div class="card__price">
+                                            <h4>
+                                                $30.00
+                                                <del> 
+                                                    $2.00
+                                                </del>
+                                            </h4>
+                                        </div>
+                                        <div class="card__rating">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- 3 -->
+                        <li class="card__wrapper">
+                            <div class="feature__card">
+                                <div class="card__img__wrapper">
+                                    <img class="card__img img" src="assets/images/mask3.png" alt="">
+                                    <div class="priceTag">
+                                        <p class="priceTag__info">25% OFF</p>
+                                    </div>
+                                </div>
+                                <div class="card__content">
+                                    <h2 class="card__heading">
+                                        Customized Reusable Face Mask
+                                    </h2> 
+                                    <div class="card__review">
+                                        <div class="card__price">
+                                            <h4>
+                                                $35.00
+                                                <del> 
+                                                    $8.00
+                                                </del>
+                                            </h4>
+                                        </div>
+                                        <div class="card__rating">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- 4 -->
+                        <li class="card__wrapper">
+                            <div class="feature__card">
+                                <div class="card__img__wrapper">
+                                    <img class="card__img img" src="assets/images/sanitizergel.png" alt="">
+                                    <div class="priceTag">
+                                        <p class="priceTag__info">30% OFF</p>
+                                    </div>
+                                </div>
+                                <div class="card__content">
+                                    <h2 class="card__heading">
+                                        Young Vision Hand Sanitizer
+                                    </h2> 
+                                    <div class="card__review">
+                                        <div class="card__price">
+                                            <h4>
+                                                $25.00
+                                                <del> 
+                                                    $5.00
+                                                </del>
+                                            </h4>
+                                        </div>
+                                        <div class="card__rating">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- 5 -->
+                        <li class="card__wrapper">
+                            <div class="feature__card">
+                                <div class="card__img__wrapper">
+                                    <img class="card__img img" src="assets/images/mask2.png" alt="">
+                                    <div class="priceTag">
+                                        <p class="priceTag__info">30% OFF</p>
+                                    </div>
+                                </div>
+                                <div class="card__content">
+                                    <h2 class="card__heading">
+                                        Customized Reusable Face Mask
+                                    </h2> 
+                                    <div class="card__review">
+                                        <div class="card__price">
+                                            <h4>
+                                                $10.00
+                                                <del> 
+                                                    $2.00
+                                                </del>
+                                            </h4>
+                                        </div>
+                                        <div class="card__rating">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- 6 -->
+                        <li class="card__wrapper">
+                            <div class="feature__card">
+                                <div class="card__img__wrapper">
+                                    <img class="card__img img" src="assets/images/gloes.png" alt="">
+                                    <div class="priceTag">
+                                        <p class="priceTag__info">15% OFF</p>
+                                    </div>
+                                </div>
+                                <div class="card__content">
+                                    <h2 class="card__heading">
+                                        Care Plus Medical Gloves
+                                    </h2> 
+                                    <div class="card__review">
+                                        <div class="card__price">
+                                            <h4>
+                                                $16.00
+                                                <del> 
+                                                    $5.00
+                                                </del>
+                                            </h4>
+                                        </div>
+                                        <div class="card__rating">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- 7 -->
+                        <li class="card__wrapper">
+                            <div class="feature__card">
+                                <div class="card__img__wrapper">
+                                    <img class="card__img img" src="assets/images/mask1.png" alt="">
+                                    <div class="priceTag">
+                                        <p class="priceTag__info">30% OFF</p>
+                                    </div>
+                                </div>
+                                <div class="card__content">
+                                    <h2 class="card__heading">
+                                        Customized Reusable Face Mask
+                                    </h2> 
+                                    <div class="card__review">
+                                        <div class="card__price">
+                                            <h4>
+                                                $20.00
+                                                <del> 
+                                                    $4.00
+                                                </del>
+                                            </h4>
+                                        </div>
+                                        <div class="card__rating">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- 8 -->
+                        <li class="card__wrapper">
+                            <div class="feature__card">
+                                <div class="card__img__wrapper">
+                                    <img class="card__img img" src="assets/images/sanitizer.png" alt="">
+                                    <div class="priceTag">
+                                        <p class="priceTag__info">10% OFF</p>
+                                    </div>
+                                </div>
+                                <div class="card__content">
+                                    <h2 class="card__heading">
+                                        Young Vision Hand Sanitizer
+                                    </h2> 
+                                    <div class="card__review">
+                                        <div class="card__price">
+                                            <h4>
+                                                $30.00
+                                                <del> 
+                                                    $2.00
+                                                </del>
+                                            </h4>
+                                        </div>
+                                        <div class="card__rating">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- 9 -->
+                        <li class="card__wrapper">
+                            <div class="feature__card">
+                                <div class="card__img__wrapper">
+                                    <img class="card__img img" src="assets/images/mask3.png" alt="">
+                                    <div class="priceTag">
+                                        <p class="priceTag__info">25% OFF</p>
+                                    </div>
+                                </div>
+                                <div class="card__content">
+                                    <h2 class="card__heading">
+                                        Customized Reusable Face Mask
+                                    </h2> 
+                                    <div class="card__review">
+                                        <div class="card__price">
+                                            <h4>
+                                                $35.00
+                                                <del> 
+                                                    $8.00
+                                                </del>
+                                            </h4>
+                                        </div>
+                                        <div class="card__rating">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- 10 -->
+                        <li class="card__wrapper">
+                            <div class="feature__card">
+                                <div class="card__img__wrapper">
+                                    <img class="card__img img" src="assets/images/sanitizergel.png" alt="">
+                                    <div class="priceTag">
+                                        <p class="priceTag__info">30% OFF</p>
+                                    </div>
+                                </div>
+                                <div class="card__content">
+                                    <h2 class="card__heading">
+                                        Young Vision Hand Sanitizer
+                                    </h2> 
+                                    <div class="card__review">
+                                        <div class="card__price">
+                                            <h4>
+                                                $25.00
+                                                <del> 
+                                                    $5.00
+                                                </del>
+                                            </h4>
+                                        </div>
+                                        <div class="card__rating">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- 11 -->
+                        <li class="card__wrapper">
+                            <div class="feature__card">
+                                <div class="card__img__wrapper">
+                                    <img class="card__img img" src="assets/images/mask2.png" alt="">
+                                    <div class="priceTag">
+                                        <p class="priceTag__info">30% OFF</p>
+                                    </div>
+                                </div>
+                                <div class="card__content">
+                                    <h2 class="card__heading">
+                                        Customized Reusable Face Mask
+                                    </h2> 
+                                    <div class="card__review">
+                                        <div class="card__price">
+                                            <h4>
+                                                $10.00
+                                                <del> 
+                                                    $2.00
+                                                </del>
+                                            </h4>
+                                        </div>
+                                        <div class="card__rating">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- 12 -->
+                        <li class="card__wrapper">
+                            <div class="feature__card">
+                                <div class="card__img__wrapper">
+                                    <img class="card__img img" src="assets/images/gloes.png" alt="">
+                                    <div class="priceTag">
+                                        <p class="priceTag__info">15% OFF</p>
+                                    </div>
+                                </div>
+                                <div class="card__content">
+                                    <h2 class="card__heading">
+                                        Care Plus Medical Gloves
+                                    </h2> 
+                                    <div class="card__review">
+                                        <div class="card__price">
+                                            <h4>
+                                                $16.00
+                                                <del> 
+                                                    $5.00
+                                                </del>
+                                            </h4>
+                                        </div>
+                                        <div class="card__rating">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                            <img class="RatingStar" src="assets/images/star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>                
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>

@@ -382,6 +382,19 @@ a, a:hover{
     object-position: top;
 }
 /* // footer Section terminated here */
+/* -----===== // Index Page is terminated here =====----- */
 
 
+/* ---===== Product Section Begin here =====--- */
+.productSection{
+    display: flex;
+    width: 100%;
+}
+.productLeft{
+    width: 20%;
+}
+.productRight{
+    width: 75%;
+}
+/* ---===== //Product Section terminated here =====--- */
 
